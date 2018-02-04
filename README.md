@@ -1,2 +1,2 @@
 # Frontio
-Most featured app for front-end developers
+Toolkit for the Front-End Developer
