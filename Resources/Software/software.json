@@ -1,0 +1,722 @@
+{
+    "Text editors with plugins / IDE": [
+    {
+        "title": "Sublime text 3",
+        "description": "A sophisticated text editor for code, markup and prose",
+        "website": "www.sublimetext.com",
+        "icon": "sublime-icon.png",
+        "windows": true,
+        "linux": true,
+        "osx": true,
+        "paid": true,
+        "download":
+        {
+            "lastVersion": true,
+            "url": "https://www.sublimetext.com/3",
+            "windows": "#dl_win_64 a:first-child",
+            "linux": "#dl_linux a:nth-child(2)",
+            "osx": "#dl_osx a:first-child",
+            "windowsExt": "exe",
+            "linuxExt": "tar.bz2",
+            "osxExt": "dmg"
+        }
+    },
+    {
+        "title": "Atom",
+        "description": "A hackable text editor for the 21st Century",
+        "website": "atom.io",
+        "icon": "atom-icon.png",
+        "windows": true,
+        "linux": true,
+        "osx": true,
+        "paid": false,
+        "download":
+        {
+            "lastVersion": true,
+            "url": "https://github.com/atom/atom/releases/latest",
+            "windows": ".my-4 > .mt-2 > li:nth-child(13) a",
+            "linux": ".my-4 > .mt-2 > li:nth-child(3) a",
+            "osx": ".my-4 > .mt-2 > li:nth-child(7) a",
+            "windowsExt": "exe",
+            "linuxExt": "deb",
+            "osxExt": "zip"
+        }
+    },
+    {
+        "title": "WebStorm",
+        "description": "The smartest JavaScript IDE",
+        "website": "www.jetbrains.com/webstorm",
+        "icon": "webstorm-icon.png",
+        "windows": true,
+        "linux": true,
+        "osx": true,
+        "paid": true,
+        "download":
+        {
+            "lastVersion": false,
+            "url": "",
+            "windows": "https://download.jetbrains.com/webstorm/WebStorm-2017.3.4.exe",
+            "linux": "https://download.jetbrains.com/webstorm/WebStorm-2017.3.4.tar.gz",
+            "osx": "https://download.jetbrains.com/webstorm/WebStorm-2017.3.4.dmg",
+            "windowsExt": "exe",
+            "linuxExt": "tar.gz",
+            "osxExt": "dmg"
+        }
+    },
+    {
+        "title": "PhpStorm",
+        "description": "Lightning-smart PHP IDE",
+        "website": "www.jetbrains.com/phpstorm",
+        "icon": "phpstorm-icon.png",
+        "windows": true,
+        "linux": true,
+        "osx": true,
+        "paid": true,
+        "download":
+        {
+            "lastVersion": false,
+            "url": "",
+            "windows": "https://download.jetbrains.com/webide/PhpStorm-2017.3.4.exe",
+            "linux": "https://download.jetbrains.com/webide/PhpStorm-2017.3.4.tar.gz",
+            "osx": "https://download.jetbrains.com/webide/PhpStorm-2017.3.4.dmg",
+            "windowsExt": "exe",
+            "linuxExt": "tar.gz",
+            "osxExt": "dmg"
+        }
+    },
+    {
+        "title": "Visual Studio Code",
+        "description": "Code editing. Redefined.",
+        "website": "code.visualstudio.com",
+        "icon": "vscode-icon.png",
+        "windows": true,
+        "linux": true,
+        "osx": true,
+        "paid": false,
+        "download":
+        {
+            "lastVersion": false,
+            "url": "",
+            "windows": "https://go.microsoft.com/fwlink/?Linkid=852157",
+            "linux": "https://go.microsoft.com/fwlink/?LinkID=760868",
+            "osx": "https://go.microsoft.com/fwlink/?LinkID=620882",
+            "windowsExt": "exe",
+            "linuxExt": "deb",
+            "osxExt": "zip"
+        }
+    },
+    {
+        "title": "Brackets",
+        "description": "A modern, open source text editor",
+        "website": "brackets.io",
+        "icon": "brackets-icon.png",
+        "windows": true,
+        "linux": true,
+        "osx": true,
+        "paid": false,
+        "download":
+        {
+            "lastVersion": true,
+            "url": "https://github.com/adobe/brackets/releases/latest",
+            "windows": ".my-4 > .mt-2 > li:nth-child(4) a",
+            "linux": ".my-4 > .mt-2 > li:nth-child(2) a",
+            "osx": ".my-4 > .mt-2 > li:nth-child(3) a",
+            "windowsExt": "msi",
+            "linuxExt": "deb",
+            "osxExt": "dmg"
+        }
+    },
+    {
+        "title": "NetBeans",
+        "description": "Fits the Pieces Together",
+        "website": "netbeans.org",
+        "icon": "netbeans-icon.png",
+        "windows": true,
+        "linux": true,
+        "osx": true,
+        "paid": false,
+        "download":
+        {
+            "lastVersion": false,
+            "url": "",
+            "windows": "http://download.netbeans.org/netbeans/8.2/final/bundles/netbeans-8.2-html-windows-x64.exe",
+            "linux": "http://download.netbeans.org/netbeans/8.2/final/bundles/netbeans-8.2-html-linux-x64.sh",
+            "osx": "http://download.netbeans.org/netbeans/8.2/final/bundles/netbeans-8.2-html-macosx.dmg",
+            "windowsExt": "exe",
+            "linuxExt": "sh",
+            "osxExt": "dmg"
+        }
+    },
+    {
+        "title": "Eclipse",
+        "description": "An amazing open source projects",
+        "website": "www.eclipse.org",
+        "icon": "eclipse-icon.png",
+        "windows": true,
+        "linux": true,
+        "osx": true,
+        "paid": false,
+        "download":
+        {
+            "lastVersion": false,
+            "url": "",
+            "windows": "http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/1a/eclipse-javascript-oxygen-1a-win32-x86_64.zip&mirror_id=1",
+            "linux": "http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/1a/eclipse-javascript-oxygen-1a-linux-gtk-x86_64.tar.gz&mirror_id=1",
+            "osx": "http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/1a/eclipse-javascript-oxygen-1a-macosx-cocoa-x86_64.dmg&mirror_id=1",
+            "windowsExt": "zip",
+            "linuxExt": "tar.gz",
+            "osxExt": "dmg"
+        }
+    },
+    {
+        "title": "Light Table",
+        "description": "The next generation code editor",
+        "website": "lighttable.com",
+        "icon": "lighttable-icon.png",
+        "windows": true,
+        "linux": true,
+        "osx": true,
+        "paid": false,
+        "download":
+        {
+            "lastVersion": true,
+            "url": "https://github.com/LightTable/LightTable/releases/latest",
+            "windows": ".my-4 > .mt-2 > li:nth-child(3) a",
+            "linux": ".my-4 > .mt-2 > li:nth-child(1) a",
+            "osx": ".my-4 > .mt-2 > li:nth-child(2) a",
+            "windowsExt": "zip",
+            "linuxExt": "tar.gz",
+            "osxExt": "tar.gz"
+        }
+    },
+    {
+        "title": "Vim",
+        "description": "Legends never die",
+        "website": "www.vim.org",
+        "icon": "vim-icon.png",
+        "windows": true,
+        "linux": true,
+        "osx": true,
+        "paid": false,
+        "download":
+        {
+            "lastVersion": false,
+            "url": "",
+            "windows": "https://github.com/vim/vim-win32-installer/releases/download/v8.0.1489/gvim_8.0.1489_x86.exe",
+            "linux": "https://github.com/vim/vim-appimage/releases/download/v8.0.1489/GVim-v8.0.1489-git7254067ee-glibc2.15.glibc2.15-x86_64.AppImage",
+            "osx": "https://github.com/macvim-dev/macvim/releases/download/snapshot-144/MacVim.dmg",
+            "windowsExt": "exe",
+            "linuxExt": "AppImage",
+            "osxExt": "dmg"
+        }
+    }],
+    "Design": [
+    {
+        "title": "Photoshop CC 2018",
+        "description": "Reimagine reality.",
+        "website": "www.adobe.com/products/photoshop.html",
+        "icon": "photoshop-icon.png",
+        "windows": true,
+        "linux": false,
+        "osx": true,
+        "paid": true,
+        "download":
+        {
+            "lastVersion": false,
+            "url": "",
+            "windows": "http://prodesigntools.com/prdl-download/Photoshop/66A1D1E00DE44601B041A631261EC584/1507846032938/AdobePhotoshop19-mul_x64.zip",
+            "linux": "",
+            "osx": "http://prodesigntools.com/prdl-download/Photoshop/66A1D1E00DE44601B041A631261EC584/1507851230691/AdobePhotoshop19-mul.dmg",
+            "windowsExt": "zip",
+            "linuxExt": "",
+            "osxExt": "dmg"
+        }
+    },
+    {
+        "title": "Illustrator CC 2018",
+        "description": "The state of the art of illustration.",
+        "website": "www.adobe.com/products/illustrator.html",
+        "icon": "illustrator-icon.png",
+        "windows": true,
+        "linux": false,
+        "osx": true,
+        "paid": true,
+        "download":
+        {
+            "lastVersion": false,
+            "url": "",
+            "windows": "http://prodesigntools.com/prdl-download/Illustrator/C1208DBFE1D04A81A21C62CDF6A96AC6/1509968804429/AdobeIllustrator22_HD_win64.zip",
+            "linux": "",
+            "osx": "http://prodesigntools.com/prdl-download/Illustrator/C1208DBFE1D04A81A21C62CDF6A96AC6/1509969961594/AdobeIllustrator22_HD.dmg",
+            "windowsExt": "zip",
+            "linuxExt": "",
+            "osxExt": "dmg"
+        }
+    },
+    {
+        "title": "Sketch",
+        "description": "Sketch is a design toolkit built to help you create your best work",
+        "website": "www.sketchapp.com",
+        "icon": "sketch-icon.png",
+        "windows": false,
+        "linux": false,
+        "osx": true,
+        "paid": true,
+        "download":
+        {
+            "lastVersion": true,
+            "url": "https://www.sketchapp.com/",
+            "windows": "",
+            "linux": "",
+            "osx": ".actions:first-child li:first-child a",
+            "windowsExt": "",
+            "linuxExt": "",
+            "osxExt": "zip"
+        }
+    },
+    {
+        "title": "Gravit Designer",
+        "description": "A cross-platform design tool for the 21st century",
+        "website": "www.designer.io",
+        "icon": "gravit-icon.png",
+        "windows": true,
+        "linux": true,
+        "osx": true,
+        "paid": false,
+        "download":
+        {
+            "lastVersion": true,
+            "url": "https://www.designer.io/",
+            "windows": ".downloads .download:nth-child(2) .sub p:first-child a:first-child",
+            "linux": ".downloads .download:nth-child(3) a:first-child",
+            "osx": ".downloads .download:nth-child(1) .sub p:first-child a:first-child",
+            "windowsExt": "exe",
+            "linuxExt": "zip",
+            "osxExt": "zip"
+        }
+    },
+    {
+        "title": "Avocode",
+        "description": "Share and inspect Photoshop and Sketch designs in a heart beat",
+        "website": "avocode.com",
+        "icon": "avocode-icon.png",
+        "windows": true,
+        "linux": true,
+        "osx": true,
+        "paid": true,
+        "download":
+        {
+            "lastVersion": false,
+            "url": "",
+            "windows": "https://media.avocode.com/download/avocode-app/2.19.1/Avocode%20Setup%202.19.1.exe",
+            "linux": "https://media.avocode.com/download/avocode-app/2.19.1/avocode-2.19.1-linux.zip",
+            "osx": "https://media.avocode.com/download/avocode-app/2.19.1/Avocode-2.19.1.dmg",
+            "windowsExt": "exe",
+            "linuxExt": "zip",
+            "osxExt": "dmg"
+        }
+    },
+    {
+        "title": "Zeplin",
+        "description": "Build pixel perfect apps in peace",
+        "website": "zeplin.io",
+        "icon": "zeplin-icon.png",
+        "windows": true,
+        "linux": false,
+        "osx": true,
+        "paid": false,
+        "download":
+        {
+            "lastVersion": true,
+            "url": "https://zeplin.io/support",
+            "windows": "#win64",
+            "linux": "",
+            "osx": "#mac",
+            "windowsExt": "exe",
+            "linuxExt": "",
+            "osxExt": "zip"
+        }
+    }],
+    "Local servers": [
+    {
+        "title": "Open Server",
+        "description": "Портативная серверная платформа и программная среда",
+        "website": "ospanel.io",
+        "icon": "openserver-icon.png",
+        "windows": true,
+        "linux": false,
+        "osx": false,
+        "paid": false,
+        "download":
+        {
+            "lastVersion": false,
+            "url": "",
+            "windows": "http://free.ospanel.io/d/AQ9Wcw4YiRFecd6JgMfZjg/1518700701/open_server_5_2_8_premium.exe",
+            "linux": "",
+            "osx": "",
+            "windowsExt": "exe",
+            "linuxExt": "",
+            "osxExt": ""
+        }
+    },
+    {
+        "title": "EasyPHP",
+        "description": "Develop with Devserver and Host with Webserver",
+        "website": "easyphp.org",
+        "icon": "easyphp-icon.png",
+        "windows": true,
+        "linux": false,
+        "osx": false,
+        "paid": false,
+        "download":
+        {
+            "lastVersion": true,
+            "url": "http://www.easyphp.org/save-easyphp-devserver-latest.php",
+            "windows": "div:nth-child(5) > a",
+            "linux": "",
+            "osx": "",
+            "windowsExt": "exe",
+            "linuxExt": "",
+            "osxExt": ""
+        }
+    },
+    {
+        "title": "XAMPP",
+        "description": "Является самой популярной средой разработки PHP",
+        "website": "www.apachefriends.org",
+        "icon": "xampp-icon.png",
+        "windows": true,
+        "linux": true,
+        "osx": true,
+        "paid": false,
+        "download":
+        {
+            "lastVersion": true,
+            "url": "https://www.apachefriends.org/ru/index.html",
+            "windows": "#download div:nth-child(2) a",
+            "linux": "#download div:nth-child(3) a",
+            "osx": "#download div:nth-child(4) a",
+            "windowsExt": "exe",
+            "linuxExt": "run",
+            "osxExt": "dmg"
+        }
+    },
+    {
+        "title": "Winginx",
+        "description": "Откройте для себя удобный инструмент для веб-разработки!",
+        "website": "winginx.com",
+        "icon": "winginx-icon.png",
+        "windows": true,
+        "linux": false,
+        "osx": false,
+        "paid": false,
+        "download":
+        {
+            "lastVersion": true,
+            "url": "https://winginx.com/ru/download",
+            "windows": ".btn-download",
+            "linux": "",
+            "osx": "",
+            "windowsExt": "exe",
+            "linuxExt": "",
+            "osxExt": ""
+        }
+    },
+    {
+        "title": "Mamp",
+        "description": "Classic local server for MacOS provided by Apple",
+        "website": "www.mamp.info",
+        "icon": "mamp-icon.png",
+        "windows": true,
+        "linux": false,
+        "osx": true,
+        "paid": true,
+        "download":
+        {
+            "lastVersion": true,
+            "url": "https://www.mamp.info/en/downloads/",
+            "windows": "#downloads-content-windows .panel-heading a",
+            "linux": "",
+            "osx": "#downloads-content-mac-os-x .panel-heading a",
+            "windowsExt": "exe",
+            "linuxExt": "",
+            "osxExt": "pkg"
+        }
+    }],
+    "Git": [
+    {
+        "title": "GitKraken",
+        "description": "The legendary Git GUI client for Windows, Mac and Linux",
+        "website": "www.gitkraken.com",
+        "icon": "gitkraken-icon.svg",
+        "windows": true,
+        "linux": true,
+        "osx": true,
+        "paid": false,
+        "download":
+        {
+            "lastVersion": false,
+            "url": "",
+            "windows": "https://release.gitkraken.com/win64/GitKrakenSetup.exe",
+            "linux": "https://release.gitkraken.com/linux/gitkraken-amd64.deb",
+            "osx": "https://release.gitkraken.com/darwin/installGitKraken.dmg",
+            "windowsExt": "exe",
+            "linuxExt": "deb",
+            "osxExt": "dmg"
+        }
+    },
+    {
+        "title": "SmartGit",
+        "description": "Get your commit done.",
+        "website": "www.syntevo.com/smartgit",
+        "icon": "smartgit-icon.png",
+        "windows": true,
+        "linux": true,
+        "osx": true,
+        "paid": true,
+        "download":
+        {
+            "lastVersion": true,
+            "url": "https://www.syntevo.com/smartgit/download/",
+            "windows": "[data-module=platform-highlighting] > div:nth-child(1) > div:nth-child(1) > a",
+            "linux": "[data-module=platform-highlighting] > div:nth-child(3) > div:nth-child(2) > a",
+            "osx": "[data-module=platform-highlighting] > div:nth-child(2) > div:nth-child(1) > a",
+            "windowsExt": "zip",
+            "linuxExt": "dmg",
+            "osxExt": "deb"
+        }
+    },
+    {
+        "title": "GitHub Desktop",
+        "description": "Get a unified cross-platform experience that’s completely open source and ready to customize",
+        "website": "desktop.github.com",
+        "icon": "github-icon.png",
+        "windows": true,
+        "linux": false,
+        "osx": true,
+        "paid": false,
+        "download":
+        {
+            "lastVersion": false,
+            "url": "",
+            "windows": "https://central.github.com/deployments/desktop/desktop/latest/win32",
+            "linux": "",
+            "osx": "https://central.github.com/deployments/desktop/desktop/latest/darwin",
+            "windowsExt": "exe",
+            "linuxExt": "",
+            "osxExt": "zip"
+        }
+    },
+    {
+        "title": "Sourcetree",
+        "description": "Simplicity and power in a beautiful Git GUI",
+        "website": "www.sourcetreeapp.com",
+        "icon": "sourcetree-icon.png",
+        "windows": true,
+        "linux": false,
+        "osx": true,
+        "paid": false,
+        "download":
+        {
+            "lastVersion": true,
+            "url": "https://www.sourcetreeapp.com/",
+            "windows": "div#download-area div.product-tour-hero--video__link--secondary > a",
+            "linux": "",
+            "osx": "div#download-area div.product-tour-hero--video__button > a",
+            "windowsExt": "exe",
+            "linuxExt": "",
+            "osxExt": "zip"
+        }
+    }],
+    "Browsers": [
+    {
+        "title": "Google Chrome",
+        "description": "Browse fast",
+        "website": "www.google.com/chrome/browser/desktop/index.html",
+        "icon": "chrome-icon.png",
+        "windows": true,
+        "linux": true,
+        "osx": true,
+        "paid": false,
+        "download":
+        {
+            "lastVersion": false,
+            "url": "",
+            "windows": "https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7B02EB64D3-71BA-D6C0-F6C3-E4EDCDE78D00%7D%26lang%3Dru%26browser%3D4%26usagestats%3D1%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable/update2/installers/ChromeSetup.exe",
+            "linux": "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb",
+            "osx": "https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg",
+            "windowsExt": "exe",
+            "linuxExt": "deb",
+            "osxExt": "dmg"
+        }
+    },
+    {
+        "title": "Mozilla Firefox",
+        "description": "Fast for good.",
+        "website": "www.mozilla.org",
+        "icon": "firefox-icon.png",
+        "windows": true,
+        "linux": true,
+        "osx": true,
+        "paid": false,
+        "download":
+        {
+            "lastVersion": false,
+            "url": "",
+            "windows": "https://download.mozilla.org/?product=firefox-latest-ssl&os=win64&lang=en-US",
+            "linux": "https://download.mozilla.org/?product=firefox-latest-ssl&os=linux64&lang=en-US",
+            "osx": "https://download.mozilla.org/?product=firefox-latest-ssl&os=osx&lang=en-US",
+            "windowsExt": "exe",
+            "linuxExt": "tar.bz2",
+            "osxExt": "dmg"
+        }
+    },
+    {
+        "title": "Opera",
+        "description": "Fast, secure, easy-to-use browser",
+        "website": "www.opera.com",
+        "icon": "opera-icon.png",
+        "windows": true,
+        "linux": true,
+        "osx": true,
+        "paid": false,
+        "download":
+        {
+            "lastVersion": false,
+            "url": "",
+            "windows": "https://net.geo.opera.com/opera/stable/windows?http_referrer=missing_via_opera_com&utm_source=(direct)_via_opera_com&utm_medium=doc&utm_campaign=try_again_v2",
+            "linux": "https://www.opera.com/download/get/?id=42884&amp;location=411&amp;nothanks=yes&amp;sub=marine",
+            "osx": "https://net.geo.opera.com/opera/stable/mac?http_referrer=missing_via_opera_com&utm_source=(direct)_via_opera_com&utm_medium=doc&utm_campaign=try_again_v2",
+            "windowsExt": "exe",
+            "linuxExt": "deb",
+            "osxExt": "zip"
+        }
+    }],
+    "Other tools": [
+    {
+        "title": "Node js",
+        "description": "JavaScript runtime built on Chrome V8 JavaScript engine",
+        "website": "nodejs.org",
+        "icon": "nodejs-icon.png",
+        "windows": true,
+        "linux": true,
+        "osx": true,
+        "paid": false,
+        "download":
+        {
+            "lastVersion": true,
+            "url": "https://nodejs.org/en/download/current/",
+            "windows": ".download-platform li:nth-child(1) a",
+            "linux": "div#main section:nth-child(2) > table > tbody > tr:nth-child(5) > td > a",
+            "osx": ".download-platform li:nth-child(2) a",
+            "windowsExt": "msi",
+            "linuxExt": "tar.xz",
+            "osxExt": "pkg"
+        }
+    },
+    {
+        "title": "Hammer",
+        "description": "Super-charge your web development with Hammer",
+        "website": "hammerformac.com",
+        "icon": "hammer-icon.png",
+        "windows": false,
+        "linux": false,
+        "osx": true,
+        "paid": true,
+        "download":
+        {
+            "lastVersion": true,
+            "url": "https://hammerformac.com/",
+            "windows": "",
+            "linux": "",
+            "osx": ".headerSection-downloadButtonBadged a",
+            "windowsExt": "",
+            "linuxExt": "",
+            "osxExt": "zip"
+        }
+    },
+    {
+        "title": "CodeKit",
+        "description": "Build websites faster and better",
+        "website": "codekitapp.com",
+        "icon": "codekit-icon.png",
+        "windows": false,
+        "linux": false,
+        "osx": true,
+        "paid": true,
+        "download":
+        {
+            "lastVersion": true,
+            "url": "https://codekitapp.com/",
+            "windows": "",
+            "linux": "",
+            "osx": "section#landing a.button.button--secondary",
+            "windowsExt": "",
+            "linuxExt": "",
+            "osxExt": "zip"
+        }
+    },
+    {
+        "title": "Prepros",
+        "description": "Compile sass ... on Mac, Windows and Linux",
+        "website": "prepros.io",
+        "icon": "prepros-icon.png",
+        "windows": true,
+        "linux": true,
+        "osx": true,
+        "paid": true,
+        "download":
+        {
+            "lastVersion": true,
+            "url": "https://prepros.io/downloads",
+            "windows": ".action-buttons a:nth-child(2)",
+            "linux": ".action-buttons a:nth-child(3)",
+            "osx": ".action-buttons a:nth-child(1)",
+            "windowsExt": "exe",
+            "linuxExt": "deb",
+            "osxExt": "zip"
+        }
+    },
+    {
+        "title": "Koala",
+        "description": "To help web developers to use sass ... more efficiently",
+        "website": "koala-app.com",
+        "icon": "koala-icon.png",
+        "windows": true,
+        "linux": true,
+        "osx": true,
+        "paid": false,
+        "download":
+        {
+            "lastVersion": true,
+            "url": "https://github.com/oklai/koala/releases/latest",
+            "windows": ".my-4 > .mt-2 > li:nth-child(2) a",
+            "linux": ".my-4 > .mt-2 > li:nth-child(6) a",
+            "osx": ".my-4 > .mt-2 > li:nth-child(1) a",
+            "windowsExt": "exe",
+            "linuxExt": "deb",
+            "osxExt": "dmg"
+        }
+    },
+    {
+        "title": "BrowserStack",
+        "description": "Say goodbye to your lab of devices and virtual machines",
+        "website": "www.browserstack.com",
+        "icon": "browserstack-icon.png",
+        "windows": true,
+        "linux": true,
+        "osx": true,
+        "paid": true,
+        "download":
+        {
+            "lastVersion": true,
+            "url": "https://www.browserstack.com/local-testing",
+            "windows": ".bullet-list:first-child li a[data-os=win32]",
+            "linux": ".bullet-list:first-child li a[data-os=linux-x64]",
+            "osx": ".bullet-list:first-child li a[data-os=darwin-x64]",
+            "windowsExt": "zip",
+            "linuxExt": "zip",
+            "osxExt": "zip"
+        }
+    }]
+}
