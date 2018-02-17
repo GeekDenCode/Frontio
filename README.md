@@ -1,2 +1,2 @@
 # Frontio
-Toolkit for the Front-End Developer
+Awesome toolkit for the Front-End Developer
